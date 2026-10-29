@@ -1,57 +1,50 @@
-README.template
+# README Template
 
-## Project Number/Title 
+## Project number/title
 
-* Authors: Your Name, and your group members’ names
-* Group name: Your Group Name
+- **Authors:** Your name and your group members' names
+- **Group name:** Your group name
 
 ## Overview
 
 Concisely explain what the program does. If this exceeds a couple of
-sentences, you're going too far. Generally, you should be pulling this
-right from the project specification. We don't want you to just cut and
-paste, but paraphrase what is stated in the project specification.
+sentences, it may be too long. Generally, use the project specification as a
+guide, but paraphrase it rather than copying it.
 
 ## Manifest
 
-A listing of source files and other non-generated files, and a brief
-(one-line) explanation of the purpose of each file.
+List the source files and other non-generated files, with a brief, one-line
+explanation of the purpose of each file.
 
 ## Building the project
 
-This section should tell the user how to build your code.  If you are
-delivering a library, where does it need to be installed, or how do you use
-it? Is this an executable, if so, how can a user get up to speed as fast as
-possible?
+Explain how to build your code. If you are delivering a library, say where it
+needs to be installed and how to use it. If this is an executable, explain
+how to get started quickly.
 
 ## Features and usage
 
-Summarise the main features of your program. It is also appropriate to
-instruct the user how to use your program.
+Summarise the main features of your program and explain how to use it.
 
 ## Testing
 
-This section should detail how you tested your code. Simply stating "I ran
-it a few times and it seems to work" is not sufficient. Your testing needs
-to be detailed here.
+Describe how you tested your code in enough detail to show the tests that
+were performed and what they verified.
 
-## Known Bugs
+## Known bugs
 
-List known bugs that you weren't able to fix (or ran out of time to fix).
+List known bugs that you were unable to fix.
 
-## Reflection and Self Assessment
+## Reflection and self-assessment
 
 Discuss the issues you encountered during development and testing. What
-problems did you have? What did you have to research and learn on your own?
-What kinds of errors did you get? How did you fix them?
+problems did you have? What did you need to research and learn on your own?
+What errors did you encounter, and how did you fix them?
 
-What parts of the project did you find challenging? Is there anything that
-finally "clicked" for you in the process of working on this project? How well
-did the development and testing process go for you?
+What parts of the project did you find challenging? Did anything finally
+"click" as you worked on the project? How well did development and testing go?
 
-## Sources Used
+## Sources used
 
-If you used any sources outside of the textbook, you should list them here. 
-If you looked something up on stackoverflow.com or you use help from AI, and 
-fail to cite it in this section, it will be considered plagiarism and dealt 
-with accordingly. So be safe CITE!
+List any sources you used outside the textbook. Cite websites, documentation,
+and AI assistance where applicable.
