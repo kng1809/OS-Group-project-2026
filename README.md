@@ -1,6 +1,6 @@
 # COMP2002 - Parallel Merge Sort
 
-**Authors:** Ayush Chauhan; Nhat Khang Nguyen (a1902467); Wentao
+**Authors:** Ayush Chauhan (a1870640); Nhat Khang Nguyen (a1902467); Wentao Wang (a1876168)
 
 ## Overview
 
