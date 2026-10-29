@@ -1,0 +1,48 @@
+# Large correctness and performance tests.
+./test-mergesort 10000000 0 1234
+./test-mergesort 10000000 2 1234
+./test-mergesort 10000000 3 1234
+./test-mergesort 10000000 4 1234
+./test-mergesort 10000000 5 1234
+
+# Larger input with a different seed.
+./test-mergesort 25000000 0 4321
+./test-mergesort 25000000 2 4321
+./test-mergesort 25000000 3 4321
+./test-mergesort 25000000 4 4321
+./test-mergesort 25000000 5 4321
+
+# Very large input.
+./test-mergesort 50000000 0 9999
+./test-mergesort 50000000 2 9999
+./test-mergesort 50000000 3 9999
+./test-mergesort 50000000 4 9999
+./test-mergesort 50000000 5 9999
+
+# Required assignment-scale tests.
+./test-mergesort 100000000 0 1234
+./test-mergesort 100000000 1 1234
+./test-mergesort 100000000 2 1234
+./test-mergesort 100000000 3 1234
+./test-mergesort 100000000 4 1234
+./test-mergesort 100000000 5 1234
+
+# Odd-sized large inputs to test uneven splitting.
+./test-mergesort 10000001 3 2468
+./test-mergesort 25000001 3 2468
+./test-mergesort 50000001 4 2468
+./test-mergesort 99999999 4 2468
+
+# Different random inputs with the same cutoff.
+./test-mergesort 20000000 3 1
+./test-mergesort 20000000 3 42
+./test-mergesort 20000000 3 2026
+./test-mergesort 20000000 3 31415
+./test-mergesort 20000000 3 99999
+
+# Higher cutoff stress tests.
+./test-mergesort 10000000 6 5555
+./test-mergesort 10000000 7 5555
+./test-mergesort 25000000 6 5555
+./test-mergesort 25000000 7 5555
+./test-mergesort 50000000 6 5555
