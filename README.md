@@ -17,7 +17,7 @@ sort, and the sorted sections are merged back together.
 | `mergesort.h` | Provides declarations, shared data structures, and global variable declarations. |
 | `test-mergesort.c` | Generates input, invokes the sort, checks correctness, and reports execution time. |
 | `Makefile` | Provides build rules for compiling `test-mergesort`. |
-| `README` | Documents the project, build and usage instructions, testing, reflection, and sources. |
+| `README.md` | Documents the project, build and usage instructions, testing, reflection, and sources. |
 | `README.template` | Provides the supplied README structure and writing guidance. |
 | `tests.txt` | Lists test runs for a range of input sizes, cutoff levels, and seeds. |
 
